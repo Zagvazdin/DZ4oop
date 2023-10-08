@@ -10,8 +10,9 @@ public class Main {
         groups1.add(new StudyGroup("Vic"));
 
         List<StudyGroup> groups2 = new ArrayList<>();
-        groups2.add(new StudyGroup("BOOO"));
-        groups2.add(new StudyGroup("Api"));
+
+
+        groups2.add(new StudyGroup("DDw"));
         groups2.add(new StudyGroup("Firs"));
 
         Stream stream1 = new Stream(groups1);
@@ -24,7 +25,7 @@ public class Main {
 
         Controller controller = new Controller(new StreamService());
         controller.sortStreams(streams);
-        System.out.println(stream1);
+        System.out.println(groups2);
     }
 
     @Override
